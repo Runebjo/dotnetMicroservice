@@ -31,6 +31,7 @@ namespace Play.Catalog.Service.Repositories
             await dbCollection.InsertOneAsync(entity);
         }
 
+        // Update
         public async Task UpdateAsync(Item entity) {
             if (entity == null) {
                 throw new ArgumentException(nameof(entity));
