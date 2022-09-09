@@ -9,7 +9,12 @@ namespace Play.Catalog.Service.Controllers
     [Route("items")]
     public class ItemsController : ControllerBase
     {
-        private readonly ItemsRepository itemsRepository = new();
+        private readonly IItemsRepository itemsRepository;
+
+        public ItemsController(IItemsRepository itemsRepository)
+        {
+            this.itemsRepository = itemsRepository;
+        }
 
         [HttpGet]
         public async Task<IEnumerable<ItemDto>> GetAsync()
@@ -52,7 +57,8 @@ namespace Play.Catalog.Service.Controllers
         {
             var existingItem = await itemsRepository.GetAsync(id);
 
-            if (existingItem == null) {
+            if (existingItem == null)
+            {
                 return NotFound();
             }
 
@@ -70,7 +76,8 @@ namespace Play.Catalog.Service.Controllers
         {
             var item = await itemsRepository.GetAsync(id);
 
-            if (item == null) {
+            if (item == null)
+            {
                 return NotFound();
             }
 
