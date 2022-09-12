@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wXw68PT8bXjePRzugQYcze7JuvlA4JA58xkd4alBcuMmIM62mn4vjEjFMSbnQo61cadlhpXbmol66E7puvYKew==",
+  "dgSpecHash": "b5ae4MkPZa0dcf7VxNHag0E3IO7fy5LYJIZIR3x+iZr6Qapx3OkiQ0s5F7Fwk6FIzSHzaWEadRMxSA+yLXk8og==",
   "success": true,
-  "projectFilePath": "D:\\dev\\2022\\dotnet\\dotnetMicroserviceTutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+  "projectFilePath": "C:\\Dev\\Projects\\dotnetMicroservices\\dotnetMicroservice\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\runeb\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\runeb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

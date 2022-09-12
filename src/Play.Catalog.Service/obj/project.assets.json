@@ -826,21 +826,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\2022\\dotnet\\dotnetMicroserviceTutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+      "projectUniqueName": "C:\\Dev\\Projects\\dotnetMicroservices\\dotnetMicroservice\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
       "projectName": "Play.Catalog.Service",
-      "projectPath": "D:\\dev\\2022\\dotnet\\dotnetMicroserviceTutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+      "projectPath": "C:\\Dev\\Projects\\dotnetMicroservices\\dotnetMicroservice\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
       "packagesPath": "C:\\Users\\runeb\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\2022\\dotnet\\dotnetMicroserviceTutorial\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+      "outputPath": "C:\\Dev\\Projects\\dotnetMicroservices\\dotnetMicroservice\\src\\Play.Catalog.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\runeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\runeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -886,7 +884,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
